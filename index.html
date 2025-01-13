@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrgFinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to OrgFinder</h1>
+            <p>Find organizations that match your interests and passions.</p>
+        </header>
+        <form id="org-finder-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" placeholder="Enter your course" required>
+            
+            <label for="interest">Interest:</label>
+            <select id="interest" name="interest">
+                <option value="">Select Interest</option>
+                <option value="Technology">Technology</option>
+                <option value="Music">Music</option>
+                <option value="Sports">Sports</option>
+                <option value="Arts and Creativity">Arts and Creativity</option>
+            </select>
+            
+            <label for="passion">Passion:</label>
+            <select id="passion" name="passion">
+                <option value="">Select Passion</option>
+                <option value="Coding/Programming">Coding/Programming</option>
+                <option value="Playing Instruments">Playing Instruments</option>
+                <option value="Athletic Performance">Athletic Performance</option>
+            </select>
+            
+            <button type="submit">Find Organizations</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
