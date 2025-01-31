@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>OrgFinder</h1>
+
+<form asp-controller="Home" asp-action="Results" method="post">
+    <label for="department">Department:</label>
+    <select id="department" name="Department" required>
+        <option value="">--Select--</option>  
+        @foreach (var dept in ViewBag.Departments)
+        {
+            <option value="@dept">@dept</option>
+        }
+    </select>
+    <span id="departmentError" class="error" style="display: none; color: red;">Please select a department.</span>
+    <br><br>
+
+    <label for="program">Program:</label>
+    <select id="program" name="Program" required>
+        <option value="">--Select--</option>
+    </select>
+    <span id="programError" class="error" style="display: none; color: red;">Please select a program.</span>
+    <br><br>
+
+    @{ int i = 0; } @* Initialize indexer *@
+    <label>Interests:</label><br>
+    @foreach (var interest in ViewBag.Interests)
+    {
+        <input type="checkbox" name="Interests[@i]" value="@interest" id="@interest"> @* Correct name format *@
+        <label for="@interest">@interest</label><br>
+        <input type="hidden" name="Interests[@i]" value="" /> @* Hidden input for unchecked boxes *@
+        i++; @* Increment indexer *@
+    }
+    <br>
+
+    <span id="atLeastOneInterestError" class="error" style="display: none; color: red;">Please select your interests.</span>
+
+    <button type="submit" id="submitBtn">Get Results</button>
+</form>
+
+<script>
+    const departments = @Html.Raw(Json.Serialize(ViewBag.Programs)); // Pass programs to JavaScript
+    const departmentSelect = document.getElementById('department');
+    const programSelect = document.getElementById('program');
+
+    departmentSelect.addEventListener('change', () => {
+        const selectedDept = departmentSelect.value;
+        
+        if (!selectedDept) {
+            programSelect.innerHTML = '<option value="">--Select--</option>';
+            return;
+        }
+        
+        programSelect.innerHTML = '<option value="">--Select--</option>'; // Clear previous options
+
+        if (selectedDept && departments[selectedDept]) {
+            departments[selectedDept].forEach(program => {
+                const option = document.createElement('option');
+                option.value = program;
+                option.text = program;
+                programSelect.appendChild(option);
+            });
+        }
+    });
+
+    const submitBtn = document.getElementById('submitBtn');
+    const departmentError = document.getElementById('departmentError');
+    const programError = document.getElementById('programError');
+    const atLeastOneInterestError = document.getElementById('atLeastOneInterestError');
+
+    submitBtn.addEventListener('click', () => {
+        const selectedInterests = document.querySelectorAll('input[name^="Interests"]:checked'); 
+        let hasError = false;
+
+        // Validate department selection
+        if (departmentSelect.value === "") {
+            departmentError.style.display = 'block';
+            hasError = true;
+        } else {
+            departmentError.style.display = 'none';
+        }
+
+        // Validate program selection
+        if (programSelect.value === "") {
+            programError.style.display = 'block';
+            hasError = true;
+        } else {
+            programError.style.display = 'none';
+        }
+        
+        // Validate at least one interest is selected
+        if (selectedInterests.length === 0) {
+            atLeastOneInterestError.style.display = 'block';
+            hasError = true;
+        } else {
+            atLeastOneInterestError.style.display = 'none';
+        }
+
+        // Prevent form submission if any error is found
+        if (hasError) {
+            event.preventDefault();
+        }
+    });
+</script>
+
