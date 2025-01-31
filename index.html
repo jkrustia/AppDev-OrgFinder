@@ -3,42 +3,958 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OrgFinder</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>OrgFinder - Find Your Organization</title>
+    
+    <!-- Google Fonts Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        
+        /* Reset default styles and set base font */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+         /* Main background style with gif */
+         body {
+            min-height: 100vh;
+            background: url('dev.gif') repeat;
+            background-size: 100%;
+        }
+
+        /* Main container layout */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 6rem;
+            min-height: 96vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* About Icon and Modal Styles */
+        .about-icon {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #441752;
+            z-index: 1000;
+            background: #e1d8f7;
+            border-radius: 50%;
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #694F8E;
+            transition: all 0.3s ease;
+        }
+
+        /* About icon hover effect */
+        .about-icon:hover {
+            background: #FCC6FF;
+            transform: scale(1.1);
+        }
+
+        /* Modal overlay styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1001;
+        }
+
+        /* Modal content container */
+        .modal-content {
+            position: relative;
+            background-color: #e1d8f7;
+            margin: 15% auto;
+            padding: 20px;
+            border: 6px solid #4B164C;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        /* Modal text styling */
+        .modal-text {
+            color: #4B164C;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Modal title styling */
+        .modal-title {
+            color: #441752;
+            font-size: 24px;
+            margin-bottom: 15px;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* Close button for modal */
+        .close-btn {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            font-size: 28px;
+            cursor: pointer;
+            color: #441752;
+        }
+
+        /* Close button hover effect */
+        .close-btn:hover {
+            color: #720455;
+        }
+
+        /* Landing page container */
+        .landing-container {
+            text-align: center;
+            padding: 4rem;
+            background: #ffffff;
+            opacity: 90%;
+            border-radius: 0px;
+            border: 7px solid #522258;
+            max-width: 840px;
+            margin: 1rem;
+        }
+
+        /* Main title styling */
+        .title {
+            color: #441752;
+            font-size: 41.5px;
+            margin-bottom: 1rem;
+            letter-spacing: 2px;
+            position: relative;
+            transform: translateY(-20px);
+        }
+
+        .subtitle {
+            color: #720455;
+            font-size: 1.1em;
+            margin-bottom: 2rem;
+            position: relative;
+            transform: translateY(-20px);
+        }
+
+        .description {
+            color: #4B164C;
+            font-size: 1.2em;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            position: relative;
+            transform: translateY(5px);
+        }
+
+        .get-started-btn {
+            background: #c69dd6;
+            color: #4C1F7A;
+            border: 3px solid #4B164C;
+            border-radius: 135px;
+            padding: 13px 33px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            transform: translateY(23px);
+        }
+
+        .get-started-btn:hover {
+            background: #FCC6FF;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Form Styles */
+        .form-container {
+            background: #ffffff;
+            border: 6px solid #522258;
+            border-radius: 10px;
+            padding: 3rem;
+            margin: -1.0rem;
+            max-width: 780px;
+            width: 100%;
+            display: none;
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .form-title {
+            color: #4B164C;
+            font-size: 3.0em;
+            margin-bottom: -3rem;
+            letter-spacing: 3px;
+            position: relative;
+            transform: translateY(-30px);
+        }
+
+        .form-group {
+            margin-bottom: 0.5rem;
+        }
+
+        label {
+            display: block;
+            color: #441752;
+            font-size: 1.2em;
+            margin-bottom: 0.5rem;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 3px solid #4B164C;
+            border-radius: 5px;
+            background: #ece4fb;
+            color: #4B164C;
+            font-size: 1em;
+            margin-bottom: 1.5rem;
+        }
+
+        .submit-btn {
+            background: #c69dd6;
+            color: #4C1F7A;
+            border: 3px solid #4B164C;
+            border-radius: 120px;
+            padding: 12px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: block;
+            margin: 1rem auto 0;
+            position: relative;
+            transform: translateY(16px);
+        }
+
+        .submit-btn:hover {
+            background: #FCC6FF;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-btn {
+            background: none;
+            color: #720455;
+            border: none;
+            font-size: 1.0em;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 1rem;
+            position: relative;
+            transform: translateY(-25px);
+        }
+
+        .back-btn:hover {
+            text-decoration: underline;
+        }
+
+        /* Animation Classes */
+        .fade-in {
+            opacity: 1;
+            transition: opacity 0.3s ease-in;
+        }
+
+        .fade-out {
+            opacity: 0;
+            transition: opacity 0.3s ease-out;
+        }
+
+        /* Dropdown Checklist Styles */
+        .dropdown-check-list {
+            display: inline-block;
+            width: 100%;
+            position: relative;
+        }
+
+        .dropdown-check-list .anchor {
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            padding: 10px;
+            width: 100%;
+            border: 3px solid #441752;
+            border-radius: 5px;
+            background-color: #ece4fb;
+            color: #4B164C;
+        }
+
+        .dropdown-check-list .anchor:after {
+            content: "";
+            border-left: 2px solid black;
+            border-top: 2px solid black;
+            padding: 3px;
+            right: 10px;
+            top: 35%;
+            transform: rotate(-135deg);
+            position: absolute;
+        }
+
+        .dropdown-check-list .anchor:active:after {
+            transform: rotate(45deg);
+            top: 45%;
+        }
+
+        .dropdown-check-list ul.items {
+            padding: 2px;
+            display: none;
+            margin: 0;
+            border: 1px solid #ece4fb;
+            border-top: none;
+            background-color: #DAD2FF;
+            position: absolute;
+            width: 100%;
+            max-height: 300px;
+            overflow-y: auto;
+            z-index: 1000;
+            border-radius: 0 0 5px 5px;
+        }
+
+        .dropdown-check-list ul.items li {
+            list-style: none;
+            padding: 8px;
+            position: relative;
+        }
+
+        .dropdown-check-list ul.items li:hover {
+            background-color: #fafafa;
+        }
+
+        .dropdown-check-list.visible .anchor {
+            border-radius: 5px 5px 0 0;
+        }
+
+        .dropdown-check-list.visible .items {
+            display: block;
+        }
+
+        .dropdown-check-list ul.items li input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .team-members {
+            margin-top: 20px;
+            width: 100%; /* Make sure container takes full width */
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+        }
+
+        .team-members .modal-text {
+            padding: 8px 0;
+            border-bottom: 1px solid #694F8E;
+            text-align: center; /* Center the text inside */
+            width: 100%; /* Make modal-text take full width */
+            max-width: 800px; /* Or whatever maximum width you prefer */
+        }
+
+        .team-members .modal-text:last-child {
+            border-bottom: none;
+        }
+
+        .results-container {
+            background: #ffffff;
+            border: 6px solid #522258;
+            border-radius: 10px;
+            padding: 3rem;
+            margin: -1rem auto; /* Added top/bottom margin */
+            max-width: 800px;
+            width: 300%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative; /* Added */
+            top: 0; /* Added */
+        }
+
+        /* Modify the fade-in class */
+        .results-container.fade-in {
+            opacity: 1;
+            animation: slideUp 0.5s ease forwards; /* Added */
+        }
+
+        /* Add animation for smooth appearance */
+        @keyframes slideUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        .results-header {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .results-title {
+            color: #4B164C;
+            font-size: 2.5em;
+            margin-bottom: 1.5rem;
+            letter-spacing: 2px;
+            position: relative;
+            transform: translateY(-20px);
+        }
+
+        .results-subtitle {
+            color: #720455;
+            font-size: 1.1em;
+            margin-bottom: 2rem;
+            position: relative;
+            transform: translateY(-35px);
+        }
+
+        .org-cards-container {
+            display: grid;
+            grid-gap: 1.5rem;
+            margin-top:-3rem;
+        }
+
+        .org-card {
+            background: #f8f4ff;
+            border: 3px solid #694F8E;
+            border-radius: 10px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .org-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .org-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .org-name {
+            color: #441752;
+            font-size: 1.3em;
+            margin: 0;
+        }
+
+        .match-percentage {
+            background: #c69dd6;
+            color: #4C1F7A;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .org-description {
+            color: #4B164C;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .org-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .tag {
+            background: #e1d8f7;
+            color: #4C1F7A;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85em;
+        }
+
+        .learn-more-btn {
+            background: #c69dd6;
+            color: #4C1F7A;
+             border: 2px solid #4B164C;
+            border-radius: 20px;
+            padding: 0.5rem 1rem;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .learn-more-btn:hover {
+            background: #FCC6FF;
+            transform: translateY(-2px);
+        }
+
+        .results-container.fade-in {
+            opacity: 1;
+        }
+
+        </style>
+    </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Welcome to OrgFinder</h1>
-            <p>Find organizations that match your interests and passions.</p>
-        </header>
-        <form id="org-finder-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            
-            <label for="course">Course:</label>
-            <input type="text" id="course" name="course" placeholder="Enter your course" required>
-            
-            <label for="interest">Interest:</label>
-            <select id="interest" name="interest">
-                <option value="">Select Interest</option>
-                <option value="Technology">Technology</option>
-                <option value="Music">Music</option>
-                <option value="Sports">Sports</option>
-                <option value="Arts and Creativity">Arts and Creativity</option>
-            </select>
-            
-            <label for="passion">Passion:</label>
-            <select id="passion" name="passion">
-                <option value="">Select Passion</option>
-                <option value="Coding/Programming">Coding/Programming</option>
-                <option value="Playing Instruments">Playing Instruments</option>
-                <option value="Athletic Performance">Athletic Performance</option>
-            </select>
-            
-            <button type="submit">Find Organizations</button>
-        </form>
+
+        <!-- About Icon -->
+        <div class="about-icon" onclick="openModal()">👥</div>
+
+        <!-- About Modal -->
+        <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 class="modal-title">About OrgFinder</h2>
+            <p class="modal-text">Welcome to OrgFinder!</p>
+            <p class="modal-text">Created by: Group 6</p>
+            <p class="modal-text">Brosoto, Irron Jovic Jun V.</p>
+            <p class="modal-text">Delos Santos, Marjorie S.</p>
+            <p class="modal-text">Padlan, Jezrielle Anne G.</p>
+            <p class="modal-text">Rustia, Julia Kyla C.</p>
+            <p class="modal-text">Tabigne, Catherine C.</p>
+            <p class="modal-text">Tuvalles, Abbedja Lear P.</p>
+        </div>
     </div>
-    <script src="script.js"></script>
-</body>
+
+    <div class="container">
+        <!-- Landing Page -->
+        <div class="landing-container" id="landingPage">
+            <h1 class="title">Welcome to OrgFinder!</h1>
+            <h2 class="subtitle">"Like tinder, but for orgs—less swiping, more thriving."</h2>
+            <p class="description">
+                Find your perfect student organization match 
+                based on your interests and program!
+            </p>
+            <button onclick="showForm()" class="get-started-btn">Get Started</button>
+        </div>
+
+        <!-- Information Form -->
+        <div class="form-container" id="formSection">
+            <button class="back-btn" onclick="showLanding()">← Back to Home</button>
+            <div class="form-header">
+                <h1 class="form-title">OrgFinder.pup</h1>
+            </div>
+            
+            <form id="org-finder-form">
+                <div class="form-group">
+                    <label for="department">Department:</label>
+                    <select id="department" name="department" required>
+                        <option value="" disabled selected>Select Department</option>
+                        <option value="CAF">College of Accountancy and Finance (CAF)</option>
+                        <option value="CADBE">College of Architecture, Design and the Built Environment (CADBE)</option>
+                        <option value="CAL">College of Arts and Letters (CAL)</option>
+                        <option value="CBA">College of Business Administration (CBA)</option>
+                        <option value="COC">College of Communication (COC)</option>
+                        <option value="CCIS">College of Computer and Information Sciences (CCIS)</option>
+                        <option value="COED">College of Education (COED)</option>
+                        <option value="CE">College of Engineering (CE)</option>
+                        <option value="CHK">College of Human Kinetics (CHK)</option>
+                        <option value="CPSPA">College of Political Science and Public Administration (CPSPA)</option>
+                        <option value="CSSD">College of Social Sciences and Development (CSSD)</option>
+                        <option value="CS">College of Science (CS)</option>
+                        <option value="CTHTM">College of Tourism, Hospitality and Transportation Management (CTHTM)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="program">Program:</label>
+                    <select id="program" name="program" required>
+                        <option value="" disabled selected>Select Program</option>
+                    </select>
+                </div>
+
+                <!-- Modified Interests Section -->
+                <div class="form-group">
+                    <label for="interests">Interests:</label>
+                    <div class="dropdown-check-list" tabindex="100">
+                        <span class="anchor">Select Interests</span>
+                        <ul class="items">
+                            <li><input type="checkbox" value="Business" />Business</li>
+                            <li><input type="checkbox" value="Technology" />Technology</li>
+                            <li><input type="checkbox" value="Science" />Science</li>
+                            <li><input type="checkbox" value="Engineering" />Engineering</li>
+                            <li><input type="checkbox" value="Humanities" />Humanities</li>
+                            <li><input type="checkbox" value="Social Sciences" />Social Sciences</li>
+                            <li><input type="checkbox" value="Medicine" />Medicine</li>
+                            <li><input type="checkbox" value="Law" />Law</li>
+                            <li><input type="checkbox" value="Education" />Education</li>
+                            <li><input type="checkbox" value="Arts & Crafts" />Arts & Crafts</li>
+                            <li><input type="checkbox" value="Music" />Music</li>
+                            <li><input type="checkbox" value="Writing" />Writing</li>
+                            <li><input type="checkbox" value="Design" />Design</li>
+                            <li><input type="checkbox" value="Photography" />Photography</li>
+                            <li><input type="checkbox" value="Sports" />Sports</li>
+                            <li><input type="checkbox" value="Travel" />Travel</li>
+                            <li><input type="checkbox" value="Gaming" />Gaming</li>
+                            <li><input type="checkbox" value="Volunteering" />Volunteering</li>
+                            <li><input type="checkbox" value="Health & Wellness" />Health & Wellness</li>
+                            <li><input type="checkbox" value="Nature" />Nature</li>
+                            <li><input type="checkbox" value="Culture" />Culture</li>
+                            <li><input type="checkbox" value="Religion" />Religion</li>
+                            <li><input type="checkbox" value="Social Issues" />Social Issues</li>
+                            <li><input type="checkbox" value="Research" />Research</li>
+                            <li><input type="checkbox" value="Innovation" />Innovation</li>
+                            <li><input type="checkbox" value="Leadership" />Leadership</li>
+                            <li><input type="checkbox" value="Community Building" />Community Building</li>
+                        </ul>
+                    </div>
+                    <input type="hidden" name="interests" id="interests" required>
+                </div>
+                
+                <button type="submit" class="submit-btn">Get Results</button>
+            </form>
+        </div>
+    </div>
+
+        <!-- Add this new container right after the form-container div in your HTML -->
+        <div class="results-container" id="resultsSection" style="display: none;">
+            <button class="back-btn" onclick="showForm()">← Back to Form</button>
+        <div class="results-header">
+            <h1 class="results-title">Recommended Organizations</h1>
+        <p class="results-subtitle">Based on your preferences, here are your matches:</p>
+    </div>
+    
+        <div class="org-cards-container" id="orgCardsContainer">
+        <!-- Sample org cards - Replace with dynamic content -->
+        <div class="org-card">
+            <div class="org-header">
+                <h2 class="org-name">Sample Organization 1</h2>
+                <span class="match-percentage">95% Match</span>
+            </div>
+            <p class="org-description">This organization focuses on technology and innovation...</p>
+            <div class="org-tags">
+                <span class="tag">Technology</span>
+                <span class="tag">Innovation</span>
+                <span class="tag">Leadership</span>
+            </div>
+            <button class="learn-more-btn">Learn More</button>
+        </div>
+    </div>
+</div>
+        
+    <script>
+        // Department to Program mapping
+        const departmentPrograms = {
+            'CAF': [
+                {value: 'BSA', label: 'Bachelor of Science in Accountancy (BSA)'},
+                {value: 'BSMA', label: 'Bachelor of Science in Management Accounting (BSMA)'},
+                {value: 'BSIA', label: 'Bachelor of Science in Internal Auditing (BSIA)'}
+            ],
+            'CADBE': [
+                {value: 'BS Arch', label: 'Bachelor of Science in Architecture (BS Arch)'},
+                {value: 'BSID', label: 'Bachelor of Science in Interior Design (BSID)'},
+                {value: 'BLA', label: 'Bachelor of Landscape Architecture (BLA)'}
+            ],
+            'CAL': [
+                {value: 'BA English', label: 'Bachelor of Arts in English (BA English)'},
+                {value: 'BA Filipino', label: 'Bachelor of Arts in Filipino (BA Filipino)'},
+                {value: 'BA Theater Arts', label: 'Bachelor of Arts in Theater Arts (BA Theater Arts)'},
+                {value: 'BA Creative Writing', label: 'Bachelor of Arts in Creative Writing (BA Creative Writing)'}
+            ],
+            'CBA': [
+                {value: 'BSBA-MM', label: 'Bachelor of Science in Business Administration Major in Marketing Management (BSBA-MM)'},
+                {value: 'BSBA-HRM', label: 'Bachelor of Science in Business Administration Major in Human Resource Management (BSBA-HRM)'},
+                {value: 'BSBA-OM', label: 'Bachelor of Science in Business Administration Major in Operations Management (BSBA-OM)'}
+            ],
+            'COC': [
+                {value: 'BA Journalism', label: 'Bachelor of Arts in Journalism (BA Journalism)'},
+                {value: 'BA Broadcasting', label: 'Bachelor of Arts in Broadcasting (BA Broadcasting)'},
+                {value: 'BA CommRes', label: 'Bachelor of Arts in Communication Research (BA CommRes)'}
+            ],
+            'CCIS': [
+                {value: 'BSCS', label: 'Bachelor of Science in Computer Science (BSCS)'},
+                {value: 'BSIT', label: 'Bachelor of Science in Information Technology (BSIT)'},
+            ],
+            'COED': [
+                {value: 'BSED-English', label: 'Bachelor of Secondary Education Major in English (BSED-English)'},
+                {value: 'BSED-Science', label: 'Bachelor of Secondary Education Major in Science (BSED-Science)'},
+                {value: 'BEED', label: 'Bachelor of Elementary Education (BEED)'}
+            ],
+            'CE': [
+                {value: 'BSCE', label: 'Bachelor of Science in Civil Engineering (BSCE)'},
+                {value: 'BSME', label: 'Bachelor of Science in Mechanical Engineering (BSME)'},
+                {value: 'BSEE', label: 'Bachelor of Science in Electrical Engineering (BSEE)'},
+                {value: 'BSECE', label: 'Bachelor of Science in Electronics Engineering (BSECE)'},
+                {value: 'BSIE', label: 'Bachelor of Science in Industrial Engineering (BSIE)'}
+            ],
+            'CHK': [
+                {value: 'BPEd', label: 'Bachelor of Physical Education (BPEd)'},
+                {value: 'BSS', label: 'Bachelor of Sports Science (BSS)'}
+            ],
+            'CPSPA': [
+                {value: 'BA Political Science', label: 'Bachelor of Arts in Political Science (BA Political Science)'},
+                {value: 'BPA', label: 'Bachelor of Public Administration (BPA)'}
+            ],
+            'CSSD': [
+                {value: 'BA Sociology', label: 'Bachelor of Arts in Sociology (BA Sociology)'},
+                {value: 'BA History', label: 'Bachelor of Arts in History (BA History)'},
+                {value: 'BS Coop Management', label: 'Bachelor of Science in Cooperatives Management (BS Coop Management)'}
+            ],
+            'CS': [
+                {value: 'BS Bio', label: 'Bachelor of Science in Biology (BS Bio)'},
+                {value: 'BS Chem', label: 'Bachelor of Science in Chemistry (BS Chem)'},
+                {value: 'BS Math', label: 'Bachelor of Science in Mathematics (BS Math)'},
+                {value: 'BS Stat', label: 'Bachelor of Science in Statistics (BS Stat)'}
+            ],
+            'CTHTM': [
+                {value: 'BSTM', label: 'Bachelor of Science in Tourism Management (BSTM)'},
+                {value: 'BSHM', label: 'Bachelor of Science in Hospitality Management (BSHM)'},
+                {value: 'BSTranspo', label: 'Bachelor of Science in Transportation Management (BSTranspo)'}
+            ]
+        };
+
+            // Function to show results
+            function showResults() {
+                const formSection = document.getElementById('formSection');
+                const resultsSection = document.getElementById('resultsSection');
+
+            formSection.classList.remove('fade-in');
+            setTimeout(() => {
+            formSection.style.display = 'none';
+            resultsSection.style.display = 'block';
+                setTimeout(() => {
+            resultsSection.classList.add('fade-in');
+        }, 50);
+    }, 300);
+}
+
+            // Function to show form (modified to handle both landing and results navigation)
+            function showForm() {
+                const landingPage = document.getElementById('landingPage');
+                const formSection = document.getElementById('formSection');
+                const resultsSection = document.getElementById('resultsSection');
+
+            // If coming from results page
+            if (resultsSection && resultsSection.style.display === 'block') {
+                resultsSection.classList.remove('fade-in');
+                    setTimeout(() => {
+                resultsSection.style.display = 'none';
+                formSection.style.display = 'block';
+                    setTimeout(() => {
+                formSection.classList.add('fade-in');
+            }, 50);
+        }, 300);
+        return;
+    }
+
+            // If coming from landing page
+            landingPage.classList.add('fade-out');
+                setTimeout(() => {
+            landingPage.style.display = 'none';
+            formSection.style.display = 'block';
+                setTimeout(() => {
+            formSection.classList.add('fade-in');
+        }, 50);
+    }, 300);
+}
+
+            // Function to generate organization card
+            function createOrgCard(org) {
+        return `
+            <div class="org-card">
+            <div class="org-header">
+                <h2 class="org-name">${org.name}</h2>
+                <span class="match-percentage">${org.matchPercentage}% Match</span>
+            </div>
+            <p class="org-description">${org.description}</p>
+            <div class="org-tags">
+                ${org.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+            </div>
+            <button class="learn-more-btn" onclick="showOrgDetails('${org.id}')">Learn More</button>
+        </div>
+    `;
+}
+
+            // Function to populate results
+            function populateResults(formData) {
+                const orgCardsContainer = document.getElementById('orgCardsContainer');
+    
+            // Example organization recommendations based on form data
+            // In a real implementation, this would come from your backend
+            const recommendedOrgs = [
+        {
+            id: '1',
+            name: 'Computer Society',
+            matchPercentage: 95,
+            description: 'A community of tech enthusiasts focused on computer science and programming.',
+            tags: ['Technology', 'Innovation', 'Programming']
+        },
+        {
+            id: '2',
+            name: 'Developer Student Club',
+            matchPercentage: 90,
+            description: 'Google-supported student community that helps students bridge the gap between theory and practice.',
+            tags: ['Technology', 'Leadership', 'Community Building']
+        },
+    ];
+
+            // Clear existing cards
+            orgCardsContainer.innerHTML = '';
+
+            // Add new cards
+            recommendedOrgs.forEach(org => {
+                orgCardsContainer.innerHTML += createOrgCard(org);
+        });
+    }
+
+            // Modified form submission handler
+            document.getElementById('org-finder-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+    
+            // Collect form data
+            const formData = {
+            department: document.getElementById('department').value,
+            program: document.getElementById('program').value,
+            interests: document.getElementById('interests').value.split(',')
+        };
+
+            // Populate results with form data
+            populateResults(formData);
+
+            // Show results page
+            showResults();
+        });
+
+            // Function to show organization details (placeholder)
+            function showOrgDetails(orgId) {
+            // This would typically open a modal or navigate to a detailed view
+            alert(`Viewing details for organization ${orgId}`);
+        }
+
+            // Function to update program options based on selected department
+            function updateProgramOptions() {
+                const departmentSelect = document.getElementById('department');
+                const programSelect = document.getElementById('program');
+            
+            // Clear existing options
+            programSelect.innerHTML = '<option value="" disabled selected>Select Program</option>';
+            
+            // Get selected department
+            const selectedDepartment = departmentSelect.value;
+            
+            // If a department is selected, populate programs
+            if (selectedDepartment && departmentPrograms[selectedDepartment]) {
+                departmentPrograms[selectedDepartment].forEach(program => {
+                    const option = document.createElement('option');
+                    option.value = program.value;
+                    option.textContent = program.label;
+                    programSelect.appendChild(option);
+                });
+            }
+        }
+
+        // Function to show form
+        function showForm() {
+            const landingPage = document.getElementById('landingPage');
+            const formSection = document.getElementById('formSection');
+        
+            landingPage.classList.add('fade-out');
+            setTimeout(() => {
+                landingPage.style.display = 'none';
+                formSection.style.display = 'block';
+                setTimeout(() => {
+                    formSection.classList.add('fade-in');
+                }, 50);
+            }, 300);
+        }
+
+        // Function to show landing page
+        function showLanding() {
+            const landingPage = document.getElementById('landingPage');
+            const formSection = document.getElementById('formSection');
+        
+            formSection.classList.remove('fade-in');
+            setTimeout(() => {
+                formSection.style.display = 'none';
+                landingPage.style.display = 'block';
+                landingPage.classList.remove('fade-out');
+            }, 300);
+        }
+
+        // Modal functions
+        function openModal() {
+            document.getElementById('aboutModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('aboutModal').style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            var modal = document.getElementById('aboutModal');
+            if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+        // Add new code for checkbox dropdown
+        document.addEventListener('DOMContentLoaded', function() {
+            var checkList = document.querySelector('.dropdown-check-list');
+            var anchor = checkList.querySelector('.anchor');
+            var items = checkList.querySelector('.items');
+            var checkboxes = items.querySelectorAll('input[type="checkbox"]');
+            var hiddenInput = document.getElementById('interests');
+
+            // Toggle the visibility of the dropdown
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                if (checkList.classList.contains('visible')) {
+                    checkList.classList.remove('visible');
+                } else {
+                    checkList.classList.add('visible');
+                }
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!checkList.contains(e.target)) {
+                    checkList.classList.remove('visible');
+                }
+            });
+
+            // Update hidden input and anchor text when checkboxes change
+            checkboxes.forEach(function(checkbox) {
+                checkbox.addEventListener('change', function() {
+                    var selectedItems = Array.from(checkboxes)
+                        .filter(cb => cb.checked)
+                        .map(cb => cb.value);
+                    
+                    hiddenInput.value = selectedItems.join(',');
+                    
+                    if (selectedItems.length > 0) {
+                        anchor.textContent = selectedItems.length + ' interests selected';
+                    } else {
+                        anchor.textContent = 'Select Interests';
+                    }
+                });
+            });
+        });
+
+            // Your existing form submission handler
+                document.getElementById('org-finder-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for submitting your information! We will help you find the perfect organization.');
+        });
+
+            // Your existing department dropdown event listener
+                document.getElementById('department').addEventListener('change', updateProgramOptions);
+
+        </script>
+    </body>
 </html>
