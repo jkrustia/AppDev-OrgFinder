@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrgFinder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+613e412c42f73a3eef362401fb38033a3c0d7518")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrgFinder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrgFinder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

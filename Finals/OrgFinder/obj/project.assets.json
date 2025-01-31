@@ -7656,11 +7656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kyla\\Documents\\JK\\BSCS 3-1N\\APPDEV\\Finals\\OrgFinder\\OrgFinder.csproj",
+      "projectUniqueName": "C:\\Users\\Kyla\\Documents\\JK\\BSCS 3-1N\\APPDEV\\AppDev-OrgFinder\\Finals\\OrgFinder\\OrgFinder.csproj",
       "projectName": "OrgFinder",
-      "projectPath": "C:\\Users\\Kyla\\Documents\\JK\\BSCS 3-1N\\APPDEV\\Finals\\OrgFinder\\OrgFinder.csproj",
+      "projectPath": "C:\\Users\\Kyla\\Documents\\JK\\BSCS 3-1N\\APPDEV\\AppDev-OrgFinder\\Finals\\OrgFinder\\OrgFinder.csproj",
       "packagesPath": "C:\\Users\\Kyla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kyla\\Documents\\JK\\BSCS 3-1N\\APPDEV\\Finals\\OrgFinder\\obj\\",
+      "outputPath": "C:\\Users\\Kyla\\Documents\\JK\\BSCS 3-1N\\APPDEV\\AppDev-OrgFinder\\Finals\\OrgFinder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kyla\\AppData\\Roaming\\NuGet\\NuGet.Config"

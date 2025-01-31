@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iTuisd1PqX0=",
+  "dgSpecHash": "2PL/z8KfsdY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kyla\\Documents\\JK\\BSCS 3-1N\\APPDEV\\Finals\\OrgFinder\\OrgFinder.csproj",
+  "projectFilePath": "c:\\Users\\Kyla\\Documents\\JK\\BSCS 3-1N\\APPDEV\\AppDev-OrgFinder\\Finals\\OrgFinder\\OrgFinder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kyla\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.3.0\\microsoft.aspnetcore.antiforgery.2.3.0.nupkg.sha512",
     "C:\\Users\\Kyla\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
