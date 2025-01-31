@@ -878,7 +878,9 @@
         function showLanding() {
             const landingPage = document.getElementById('landingPage');
             const formSection = document.getElementById('formSection');
-        
+            const resultsSection = document.getElementById('resultsSection');
+
+            resultsSection.style.display = 'none';
             formSection.classList.remove('fade-in');
             setTimeout(() => {
                 formSection.style.display = 'none';
