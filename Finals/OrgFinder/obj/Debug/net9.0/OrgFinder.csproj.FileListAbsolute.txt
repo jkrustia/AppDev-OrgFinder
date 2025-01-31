@@ -1,0 +1,327 @@
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\appsettings.Development.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\appsettings.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.staticwebassets.runtime.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.staticwebassets.endpoints.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.exe
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.deps.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.runtimeconfig.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.pdb
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Newtonsoft.Json.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.csproj.AssemblyReference.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.AssemblyInfoInputs.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.AssemblyInfo.cs
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.csproj.CoreCompileInputs.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.RazorAssemblyInfo.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.RazorAssemblyInfo.cs
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\scopedcss\bundle\OrgFinder.styles.css
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\scopedcss\projectbundle\OrgFinder.bundle.scp.css
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\lc2sriq44q-b9sayid5wm.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\evvz124rz0-61n19gt1b8.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\7vqloi7qjs-xtxxf3hu2r.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\4li968rvpp-bqjiyaj88i.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\cu18l0jjpy-c2jlpeoesf.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\fwvi79nutl-erw9l3u2r3.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\au64zkhjls-aexeepp0ev.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\8o7rbevsvx-d7shbmvgxk.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\gqvpxwq1n1-ausgxo2sd3.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\vijjbhhrdv-k8d9w2qqmf.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\osk85127bh-cosvhxvwiu.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\opbkknsxnq-ub07r2b239.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\pe0v5lacym-fvhpjtyr6v.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\yf3b6v4py5-b7pk76d08c.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\n8rpvuyqx9-fsbi9cje9m.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\iyavbf0oh1-rzd6atqjts.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\7itsd463xv-ee0r1s7dh0.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\hhoev669mx-dxx9fxp4il.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\g4j2ehdm0m-jd9uben2k1.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\3p5s84y9oi-khv3u5hwcm.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\4qxx7a3wf6-r4e9w2rdcm.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\rapzyxqko9-lcd1t2u6c8.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\zx5kvecvdl-c2oey78nd0.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\v3z9f5378s-tdbxkamptv.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\4kgwu1fudj-j5mq2jizvt.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\53li7vne13-06098lyss8.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\iodveg79i2-nvvlpmu67g.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\1ha5y8moz4-s35ty4nyc5.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\wc26bfe1be-pj5nd1wqec.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\p1yjfy8mib-46ein0sx1k.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\5a2azhj15i-v0zj4ognzu.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\lee4uvdgo1-37tfw0ft22.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\rk9vntzwi3-hrwsygsryq.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\vax8wigejj-pk9g2wxc8p.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\3dbiuei9du-ft3s53vfgj.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\62cuzt6q1o-6cfz1n2cew.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\59nom2zcpy-6pdc2jztkx.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\wm1pl4vhno-493y06b0oq.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\2niq7uy5p3-iovd86k7lj.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\bpkhw17de3-vr1egmr9el.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\zrymthap7p-kbrnm935zg.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\ef5eo0pgs1-jj8uyg4cgr.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\w1136nyb4a-y7v9cxd14o.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\eijqpeuvft-notf2xhcfb.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\05ffyvpath-h1s4sie4z3.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\fvn6k1l4xv-63fj8s7r0e.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\xkxtmvwzt2-0j3bgjxly4.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\10lycxud02-47otxtyo56.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\ajieuyfy3i-4v8eqarkd7.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\uzxwv9wij0-356vix0kms.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\h7a90u3ffk-83jwlth58m.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\9ih75ksd7g-mrlpezrjn3.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\kn7p095l6e-lzl9nlhx6b.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\9wyg2144z5-ag7o75518u.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\yp0vznzsw6-x0q3zqp4vz.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\xgl72nct5b-0i3buxo5is.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\59xsmtu86g-o1o13a6vjx.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\jeqjcrh5m1-ttgo8qnofa.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\febkm3fdel-2z0ns9nrw6.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\rgnzfztnvz-muycvpuwrr.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\g0muq5ybj3-87fc7y1x7t.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\zydhv3aw6v-mlv21k5csn.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\j9no5n5hbg-cipvbnijgx.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\compressed\wfi1mwl86m-cipvbnijgx.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.build.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.development.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.OrgFinder.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.OrgFinder.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.build.OrgFinder.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.OrgFinder.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.OrgFinder.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.pack.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.csproj.Up2Date
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\refint\OrgFinder.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.pdb
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.genruntimeconfig.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\Finals\OrgFinder\obj\Debug\net9.0\ref\OrgFinder.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\appsettings.Development.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\appsettings.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.staticwebassets.endpoints.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.staticwebassets.runtime.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.exe
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.deps.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.runtimeconfig.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.pdb
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Newtonsoft.Json.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.csproj.AssemblyReference.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.AssemblyInfoInputs.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.AssemblyInfo.cs
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.csproj.CoreCompileInputs.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.RazorAssemblyInfo.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.RazorAssemblyInfo.cs
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\scopedcss\bundle\OrgFinder.styles.css
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\scopedcss\projectbundle\OrgFinder.bundle.scp.css
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\evvz124rz0-61n19gt1b8.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\7vqloi7qjs-xtxxf3hu2r.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\4li968rvpp-bqjiyaj88i.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\cu18l0jjpy-c2jlpeoesf.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\fwvi79nutl-erw9l3u2r3.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\au64zkhjls-aexeepp0ev.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\8o7rbevsvx-d7shbmvgxk.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\gqvpxwq1n1-ausgxo2sd3.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\vijjbhhrdv-k8d9w2qqmf.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\osk85127bh-cosvhxvwiu.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\opbkknsxnq-ub07r2b239.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\pe0v5lacym-fvhpjtyr6v.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\yf3b6v4py5-b7pk76d08c.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\n8rpvuyqx9-fsbi9cje9m.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\iyavbf0oh1-rzd6atqjts.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\7itsd463xv-ee0r1s7dh0.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\hhoev669mx-dxx9fxp4il.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\g4j2ehdm0m-jd9uben2k1.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\3p5s84y9oi-khv3u5hwcm.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\4qxx7a3wf6-r4e9w2rdcm.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\rapzyxqko9-lcd1t2u6c8.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\zx5kvecvdl-c2oey78nd0.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\v3z9f5378s-tdbxkamptv.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\4kgwu1fudj-j5mq2jizvt.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\53li7vne13-06098lyss8.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\iodveg79i2-nvvlpmu67g.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\1ha5y8moz4-s35ty4nyc5.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\wc26bfe1be-pj5nd1wqec.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\p1yjfy8mib-46ein0sx1k.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\5a2azhj15i-v0zj4ognzu.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\lee4uvdgo1-37tfw0ft22.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\rk9vntzwi3-hrwsygsryq.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\vax8wigejj-pk9g2wxc8p.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\3dbiuei9du-ft3s53vfgj.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\62cuzt6q1o-6cfz1n2cew.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\59nom2zcpy-6pdc2jztkx.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\wm1pl4vhno-493y06b0oq.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\2niq7uy5p3-iovd86k7lj.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\bpkhw17de3-vr1egmr9el.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\zrymthap7p-kbrnm935zg.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\ef5eo0pgs1-jj8uyg4cgr.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\w1136nyb4a-y7v9cxd14o.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\eijqpeuvft-notf2xhcfb.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\05ffyvpath-h1s4sie4z3.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\fvn6k1l4xv-63fj8s7r0e.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\xkxtmvwzt2-0j3bgjxly4.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\10lycxud02-47otxtyo56.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\ajieuyfy3i-4v8eqarkd7.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\uzxwv9wij0-356vix0kms.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\h7a90u3ffk-83jwlth58m.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\9ih75ksd7g-mrlpezrjn3.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\kn7p095l6e-lzl9nlhx6b.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\9wyg2144z5-ag7o75518u.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\yp0vznzsw6-x0q3zqp4vz.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\xgl72nct5b-0i3buxo5is.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\59xsmtu86g-o1o13a6vjx.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\jeqjcrh5m1-ttgo8qnofa.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\febkm3fdel-2z0ns9nrw6.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\rgnzfztnvz-muycvpuwrr.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\g0muq5ybj3-87fc7y1x7t.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\zydhv3aw6v-mlv21k5csn.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.build.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.development.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.OrgFinder.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.OrgFinder.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.build.OrgFinder.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.OrgFinder.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.OrgFinder.props
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.pack.json
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.csproj.Up2Date
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\refint\OrgFinder.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.pdb
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.genruntimeconfig.cache
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\ref\OrgFinder.dll
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\j9no5n5hbg-cipvbnijgx.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\wfi1mwl86m-cipvbnijgx.gz
+c:\Users\Kyla\Documents\JK\BSCS 3-1N\APPDEV\temp\Finals\OrgFinder\obj\Debug\net9.0\compressed\lc2sriq44q-yp7d1isqtb.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\appsettings.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.staticwebassets.endpoints.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.staticwebassets.runtime.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.exe
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.deps.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.runtimeconfig.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\OrgFinder.pdb
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.csproj.AssemblyReference.cache
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.AssemblyInfoInputs.cache
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.AssemblyInfo.cs
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.csproj.CoreCompileInputs.cache
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.RazorAssemblyInfo.cache
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.RazorAssemblyInfo.cs
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\scopedcss\bundle\OrgFinder.styles.css
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\scopedcss\projectbundle\OrgFinder.bundle.scp.css
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\evvz124rz0-61n19gt1b8.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\7vqloi7qjs-xtxxf3hu2r.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\4li968rvpp-bqjiyaj88i.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\cu18l0jjpy-c2jlpeoesf.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\fwvi79nutl-erw9l3u2r3.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\au64zkhjls-aexeepp0ev.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\8o7rbevsvx-d7shbmvgxk.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\gqvpxwq1n1-ausgxo2sd3.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\vijjbhhrdv-k8d9w2qqmf.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\osk85127bh-cosvhxvwiu.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\opbkknsxnq-ub07r2b239.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\pe0v5lacym-fvhpjtyr6v.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\yf3b6v4py5-b7pk76d08c.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\n8rpvuyqx9-fsbi9cje9m.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\iyavbf0oh1-rzd6atqjts.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\7itsd463xv-ee0r1s7dh0.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\hhoev669mx-dxx9fxp4il.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\g4j2ehdm0m-jd9uben2k1.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\3p5s84y9oi-khv3u5hwcm.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\4qxx7a3wf6-r4e9w2rdcm.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\rapzyxqko9-lcd1t2u6c8.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\zx5kvecvdl-c2oey78nd0.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\v3z9f5378s-tdbxkamptv.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\4kgwu1fudj-j5mq2jizvt.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\53li7vne13-06098lyss8.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\iodveg79i2-nvvlpmu67g.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\1ha5y8moz4-s35ty4nyc5.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\wc26bfe1be-pj5nd1wqec.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\p1yjfy8mib-46ein0sx1k.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\5a2azhj15i-v0zj4ognzu.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\lee4uvdgo1-37tfw0ft22.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\rk9vntzwi3-hrwsygsryq.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\vax8wigejj-pk9g2wxc8p.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\3dbiuei9du-ft3s53vfgj.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\62cuzt6q1o-6cfz1n2cew.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\59nom2zcpy-6pdc2jztkx.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\wm1pl4vhno-493y06b0oq.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\2niq7uy5p3-iovd86k7lj.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\bpkhw17de3-vr1egmr9el.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\zrymthap7p-kbrnm935zg.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\ef5eo0pgs1-jj8uyg4cgr.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\w1136nyb4a-y7v9cxd14o.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\eijqpeuvft-notf2xhcfb.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\05ffyvpath-h1s4sie4z3.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\fvn6k1l4xv-63fj8s7r0e.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\xkxtmvwzt2-0j3bgjxly4.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\10lycxud02-47otxtyo56.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\ajieuyfy3i-4v8eqarkd7.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\uzxwv9wij0-356vix0kms.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\h7a90u3ffk-83jwlth58m.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\9ih75ksd7g-mrlpezrjn3.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\kn7p095l6e-lzl9nlhx6b.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\9wyg2144z5-ag7o75518u.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\yp0vznzsw6-x0q3zqp4vz.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\xgl72nct5b-0i3buxo5is.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\59xsmtu86g-o1o13a6vjx.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\jeqjcrh5m1-ttgo8qnofa.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\febkm3fdel-2z0ns9nrw6.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\rgnzfztnvz-muycvpuwrr.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\g0muq5ybj3-87fc7y1x7t.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\zydhv3aw6v-mlv21k5csn.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\j9no5n5hbg-cipvbnijgx.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\wfi1mwl86m-cipvbnijgx.gz
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.OrgFinder.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.OrgFinder.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.build.OrgFinder.props
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.OrgFinder.props
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.OrgFinder.props
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.csproj.Up2Date
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\refint\OrgFinder.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.pdb
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\OrgFinder.genruntimeconfig.cache
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\ref\OrgFinder.dll
+C:\Users\irron\Downloads\Finals\Finals\OrgFinder\obj\Debug\net9.0\compressed\lc2sriq44q-sm6m3ra60q.gz

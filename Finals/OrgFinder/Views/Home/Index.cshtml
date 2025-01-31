@@ -1,0 +1,266 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-controller="Home" asp-action="Results" method="post"> 
+        <!-- About Icon -->
+        <div class="about-icon" onclick="openModal()">👥</div>
+
+        <!-- About Modal -->
+        <div id="aboutModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                <h1 class="modal-title">About OrgFinder</h1>
+                <h1 class="modal-text">Welcome to OrgFinder!</h1>
+                <hr>
+                <h3 class="modal-text">Created by: Group 6</h3>
+                <br>
+                <p class="modal-text">Brosoto, Irron Jovic Jun V.</p>
+                <p class="modal-text">Delos Santos, Marjorie S.</p>
+                <p class="modal-text">Padlan, Jezrielle Anne G.</p>
+                <p class="modal-text">Rustia, Julia Kyla C.</p>
+                <p class="modal-text">Tabigne, Catherine C.</p>
+                <p class="modal-text">Tuvalles, Abbedja Lear P.</p>
+        </div>
+        </div>
+
+    <div class="container">
+        <!-- Landing Page -->
+        <div class="landing-container" id="landingPage">
+            <h1 class="title">Welcome to OrgFinder!</h1>
+            <h2 class="subtitle">"Like tinder, but for orgs—no swiping, more thriving."</h2>
+            <p class="description">
+                Find your perfect student organization match 
+                based on your interests and program!
+            </p>
+            <button onclick="showForm()" class="get-started-btn">Get Started</button>
+        </div>
+
+        <!-- Information Form -->
+        <div class="form-container" id="formSection">
+            <button class="back-btn" onclick="showLanding()">← Back to Home</button>
+            <div class="form-header">
+                <h1 class="form-title">OrgFinder.pup</h1>
+            </div>
+            
+            
+                <div class="form-group">
+                    <label for="department">Department:</label>
+                    <select id="department" name="Department" required>
+                        <option value="">--Select--</option>  
+                        @foreach (var dept in ViewBag.Departments)
+                        {
+                            <option value="@dept">@dept</option>
+                        }
+                    </select>
+                <span id="departmentError" class="error" style="display: none; color: red;">Please select a department.</span>
+                </div>
+                
+
+                <div class="form-group">
+                    <label for="program">Program:</label>
+                    <select id="program" name="Program" required>
+                        <option value="">--Select--</option>
+                    </select>
+                <span id="programError" class="error" style="display: none; color: red;">Please select a program.</span>
+                </div>
+                
+
+                <!-- Modified Interests Section -->
+                @{ int i = 0; } @* Initialize indexer *@
+                <label>Interests:</label>
+                <div class="dropdown-check-list"> 
+                    <span class="anchor">--Select--</span> 
+                    <ul class="items">
+                        @foreach (var interest in ViewBag.Interests)
+                        {
+                            <li>
+                                <input type="checkbox" name="Interests[@i]" value="@interest" id="@interest"> 
+                                <label for="@interest">@interest</label><br> 
+                            </li>
+                            <input type="hidden" name="Interests[@i]" value="" /> 
+                            i++;
+                        }
+                    </ul>
+                </div>
+                <span id="atLeastOneInterestError" class="error" style="display: none; color: red;">Please select your interests.</span>
+
+                <br>
+                
+                
+                <button type="submit" class="submit-btn">Get Results</button>
+
+        </div>
+    </div>
+ </form>
+
+<script>
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    const interestsInput = document.getElementById('interests'); 
+
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', () => {
+            const selectedInterests = Array.from(checkboxes)
+                .filter(checkbox => checkbox.checked)
+                .map(checkbox => checkbox.value); 
+
+            interestsInput.value = JSON.stringify(selectedInterests); 
+        });
+    });
+
+
+    function showResults() {
+        const formSection = document.getElementById('formSection');
+        const resultsSection = document.getElementById('resultsSection');
+
+        formSection.classList.remove('fade-in');
+        setTimeout(() => {
+            formSection.style.display = 'none';
+            resultsSection.style.display = 'block';
+                setTimeout(() => {
+                resultsSection.classList.add('fade-in');
+            }, 50);
+        }, 300);
+    }
+
+    const dropdown = document.querySelector('.dropdown-check-list');
+    const anchor = dropdown.querySelector('.anchor');
+
+    anchor.addEventListener('click', () => {
+    dropdown.classList.toggle('visible'); 
+    });
+
+    // Function to show form (modified to handle both landing and results navigation)
+    function showForm() {
+        const landingPage = document.getElementById('landingPage');
+        const formSection = document.getElementById('formSection');
+        const resultsSection = document.getElementById('resultsSection');
+
+        // If coming from results page
+        if (resultsSection && resultsSection.style.display === 'block') {
+            resultsSection.classList.remove('fade-in');
+            setTimeout(() => {
+            resultsSection.style.display = 'none';
+            formSection.style.display = 'block';
+            setTimeout(() => {
+                formSection.classList.add('fade-in');
+            }, 50);
+            }, 300);
+            return;
+        }
+
+        // If coming from landing page
+        landingPage.classList.add('fade-out');
+        setTimeout(() => {
+            landingPage.style.display = 'none';
+            formSection.style.display = 'block';
+            setTimeout(() => {
+            formSection.classList.add('fade-in');
+            }, 50);
+        }, 300);
+    }
+
+    // Function to show landing page
+    function showLanding() {
+        const landingPage = document.getElementById('landingPage');
+        const formSection = document.getElementById('formSection');
+        const resultsSection = document.getElementById('resultsSection');
+
+        // Hide results section if it's visible
+        if (resultsSection && resultsSection.style.display === 'block') { 
+            resultsSection.classList.remove('fade-in');
+            setTimeout(() => {
+                resultsSection.style.display = 'none'; 
+            }, 300); 
+        }
+
+        // Hide form section and show landing page
+        formSection.classList.remove('fade-in');
+        setTimeout(() => {
+            formSection.style.display = 'none';
+            landingPage.style.display = 'block';
+            landingPage.classList.remove('fade-out');
+        }, 300);
+    }
+
+    // Modal functions
+    function openModal() {
+        document.getElementById('aboutModal').style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('aboutModal').style.display = 'none';
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        var modal = document.getElementById('aboutModal');
+        if (event.target == modal) {
+        modal.style.display = 'none';
+        }
+    }
+
+    const departments = @Html.Raw(Json.Serialize(ViewBag.Programs)); // Pass programs to JavaScript
+    const departmentSelect = document.getElementById('department');
+    const programSelect = document.getElementById('program');
+
+    departmentSelect.addEventListener('change', () => {
+        const selectedDept = departmentSelect.value;
+        
+        if (!selectedDept) {
+            programSelect.innerHTML = '<option value="">--Select--</option>';
+            return;
+        }
+        
+        programSelect.innerHTML = '<option value="">--Select--</option>'; // Clear previous options
+
+        if (selectedDept && departments[selectedDept]) {
+            departments[selectedDept].forEach(program => {
+                const option = document.createElement('option');
+                option.value = program;
+                option.text = program;
+                programSelect.appendChild(option);
+            });
+        }
+    });
+
+    const submitBtn = document.getElementById('submitBtn');
+    const departmentError = document.getElementById('departmentError');
+    const programError = document.getElementById('programError');
+    const atLeastOneInterestError = document.getElementById('atLeastOneInterestError');
+
+    submitBtn.addEventListener('click', () => {
+        const selectedInterests = document.querySelectorAll('input[name^="Interests"]:checked'); 
+        let hasError = false;
+
+        // Validate department selection
+        if (departmentSelect.value === "") {
+            departmentError.style.display = 'block';
+            hasError = true;
+        } else {
+            departmentError.style.display = 'none';
+        }
+
+        // Validate program selection
+        if (programSelect.value === "") {
+            programError.style.display = 'block';
+            hasError = true;
+        } else {
+            programError.style.display = 'none';
+        }
+        
+        // Validate at least one interest is selected
+        if (selectedInterests.length === 0) {
+            atLeastOneInterestError.style.display = 'block';
+            hasError = true;
+        } else {
+            atLeastOneInterestError.style.display = 'none';
+        }
+
+        // Prevent form submission if any error is found
+        if (hasError) {
+            event.preventDefault();
+        }
+    });
+</script>
+

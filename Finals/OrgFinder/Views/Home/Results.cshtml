@@ -1,0 +1,46 @@
+﻿@model List<Organization>
+
+<div class="results-container fade-in" id="resultsSection">
+    <button class="back-btn" onclick="showForm()">← Back to Form</button>
+    <div class="results-header">
+        <h1 class="results-title">Recommended Organizations</h1>
+        <p class="results-subtitle">Based on your preferences, here are your matches:</p>
+        <p class="results-subtitle">Found @(Model?.Count ?? 0) organizations</p>
+    </div>
+    <div class="org-cards-container" id="orgCardsContainer">
+        @if (Model == null || Model.Count == 0)
+        {
+            <p>No organizations found matching your criteria.</p>
+        }
+        else
+        {
+            @foreach (var org in Model)
+            {
+                <div class="org-card">
+                    <div class="org-header">
+                        <h2 class="org-name">@org.Name</h2>
+                    </div>
+                    @if (org.Interests != null && org.Interests.Any())
+                    {
+                        <div class="org-tags">
+                            @foreach (var interest in org.Interests)
+                            {
+                                <span class="tag">@interest</span>
+                            }
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(org.Website))
+                    {
+                        <a class="learn-more-btn" href="@org.Website" target="_blank">Learn More</a>
+                    }
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<script>
+    function showForm() {
+        window.location.href = '/Home/Index';
+    }
+</script>
